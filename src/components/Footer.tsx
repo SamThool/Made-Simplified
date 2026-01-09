@@ -2,14 +2,37 @@ import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
 import { motion } from "framer-motion";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "contact@madesimplified.com", href: "mailto:contact@madesimplified.com" },
-  { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
-  { icon: MapPin, label: "Address", value: "123 Tech Street, San Francisco, CA 94102", href: "#" },
+  {
+    icon: Mail,
+    label: "Email",
+    value: "madesimplified@gmail.com",
+    href: "mailto:madesimplified@gmail.com",
+  },
+  {
+    icon: Phone,
+    label: "Phone",
+    value: "+91 93700 48698",
+    href: "tel:93700 48698",
+  },
+  {
+    icon: MapPin,
+    label: "Address",
+    value: "Nagpur, Maharashatra",
+    href: "#",
+  },
 ];
 
 const socialLinks = [
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/company/madesimplified" },
-  { icon: Twitter, label: "Twitter", href: "https://twitter.com/madesimplified" },
+  {
+    icon: Linkedin,
+    label: "LinkedIn",
+    href: "https://linkedin.com/company/madesimplified",
+  },
+  {
+    icon: Twitter,
+    label: "Twitter",
+    href: "https://twitter.com/madesimplified",
+  },
   { icon: Github, label: "GitHub", href: "https://github.com/madesimplified" },
 ];
 
@@ -69,7 +92,7 @@ export const Footer = () => {
     <footer id="contact" className="border-t border-border">
       <div className="container mx-auto px-6">
         {/* Main Footer */}
-        <motion.div 
+        <motion.div
           className="py-16 grid md:grid-cols-2 lg:grid-cols-5 gap-12"
           variants={containerVariants}
           initial="hidden"
@@ -79,17 +102,22 @@ export const Footer = () => {
           {/* Brand & Contact */}
           <motion.div className="lg:col-span-2" variants={itemVariants}>
             <a href="#" className="flex items-center gap-2 mb-6">
-              <motion.div 
+              <motion.div
                 className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center"
                 whileHover={{ scale: 1.05, rotate: 5 }}
                 transition={{ duration: 0.2 }}
               >
-                <span className="text-primary-foreground font-bold text-lg">M</span>
+                <span className="text-primary-foreground font-bold text-lg">
+                  M
+                </span>
               </motion.div>
-              <span className="font-semibold text-xl tracking-tight">MadeSimplified</span>
+              <span className="font-semibold text-xl tracking-tight">
+                MadeSimplified
+              </span>
             </a>
             <p className="text-muted-foreground mb-6 max-w-sm leading-relaxed">
-              Simplifying technology with enterprise-grade software solutions built for the modern world.
+              Simplifying technology with enterprise-grade software solutions
+              built for the modern world.
             </p>
 
             {/* Contact Info */}
@@ -151,7 +179,7 @@ export const Footer = () => {
         </motion.div>
 
         {/* Bottom Bar */}
-        <motion.div 
+        <motion.div
           className="py-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -162,15 +190,15 @@ export const Footer = () => {
             © {currentYear} MadeSimplified™. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <motion.a 
-              href="#" 
+            <motion.a
+              href="#"
               className="hover:text-foreground transition-colors"
               whileHover={{ y: -2 }}
             >
               Privacy Policy
             </motion.a>
-            <motion.a 
-              href="#" 
+            <motion.a
+              href="#"
               className="hover:text-foreground transition-colors"
               whileHover={{ y: -2 }}
             >
