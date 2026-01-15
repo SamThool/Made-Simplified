@@ -5,7 +5,7 @@ const team = [
   {
     name: "Sameer Nimje",
     role: "CTO & Founder",
-    portfolio: "https://www.linkedin.com/in/sameer-nimje-0029b421b/",
+    portfolio: "https://sameerx.in/",
     initials: "SN",
   },
   {
@@ -15,15 +15,15 @@ const team = [
     initials: "ST",
   },
   {
-    name: "Aditya Gawande",
+    name: "Under Cover",
     role: "Software Developer",
-    portfolio: "https://www.linkedin.com/in/adityagawande10/",
+    portfolio: "https://www.linkedin.com",
     initials: "AG",
   },
   {
-    name: "Sakshi Ambolikar",
+    name: "Under Cover",
     role: "Planner and Designing",
-    portfolio: "https://www.linkedin.com/in/sakshi-ambolikar-7300541b8/",
+    portfolio: "https://www.linkedin.com",
     initials: "SA",
   },
   {
