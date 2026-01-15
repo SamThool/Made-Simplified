@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 
 const team = [
   {
-    name: "Sam Thool",
-    role: "CEO & Founder",
-    portfolio: "https://www.linkedin.com/in/samyak-thool/",
-    initials: "ST",
-  },
-  {
     name: "Sameer Nimje",
-    role: "Co Founder",
+    role: "CTO & Founder",
     portfolio: "https://www.linkedin.com/in/sameer-nimje-0029b421b/",
     initials: "SN",
+  },
+  {
+    name: "Sam Thool",
+    role: "CEO & Co Founder",
+    portfolio: "https://www.linkedin.com/in/samyak-thool/",
+    initials: "ST",
   },
   {
     name: "Aditya Gawande",
