@@ -34,7 +34,7 @@ export const Navbar = () => {
               {"</>"}
             </span> */}
             <img
-              src="/public/simplifyX_favicon.png"
+              src="https://1drv.ms/i/c/a9e9b5b0b0ba64fa/IQCaSFYkYJAWRrkmIk1ePvTBAYh-f-EDGC-morTAgYUpIvk?e=lIzP2w"
               alt="SimplifyX"
               width={40}
               height={40}
