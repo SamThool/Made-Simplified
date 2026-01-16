@@ -5,8 +5,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "madesimplified@gmail.com",
-    href: "mailto:madesimplified@gmail.com",
+    value: "simplifyx@outlook.com",
+    href: "mailto:simplifyx@outlook.com",
   },
   {
     icon: Phone,
@@ -26,14 +26,14 @@ const socialLinks = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com/company/madesimplified",
+    href: "https://linkedin.com/company/simplifyx",
   },
   {
     icon: Twitter,
     label: "Twitter",
-    href: "https://twitter.com/madesimplified",
+    href: "https://twitter.com/simplifyx",
   },
-  { icon: Github, label: "GitHub", href: "https://github.com/madesimplified" },
+  { icon: Github, label: "GitHub", href: "https://github.com/simplifyx" },
 ];
 
 const footerLinks = [
@@ -112,7 +112,7 @@ export const Footer = () => {
                 </span>
               </motion.div>
               <span className="font-semibold text-xl tracking-tight">
-                MadeSimplified
+                SimplifyX
               </span>
             </a>
             <p className="text-muted-foreground mb-6 max-w-sm leading-relaxed">
@@ -187,7 +187,7 @@ export const Footer = () => {
           viewport={{ once: true }}
         >
           <p className="text-sm text-muted-foreground">
-            © {currentYear} MadeSimplified™. All rights reserved.
+            © {currentYear} SimplifyX™. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
             <motion.a

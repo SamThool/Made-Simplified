@@ -9,10 +9,10 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>MadeSimplified - IT Services & Software Solutions | HMS, CRM & ERP</title>
+        <title>SimplifyX - IT Services & Software Solutions | HMS, CRM & ERP</title>
         <meta 
           name="description" 
-          content="MadeSimplified delivers enterprise-grade IT services and software solutions including Hospital Management Systems, CRM, and ERP. Transform your business operations today." 
+          content="SimplifyX delivers enterprise-grade IT services and software solutions including Hospital Management Systems, CRM, and ERP. Transform your business operations today." 
         />
         <meta name="keywords" content="healthcare software, HMS, CRM, ERP, hospital management, medical software" />
       </Helmet>

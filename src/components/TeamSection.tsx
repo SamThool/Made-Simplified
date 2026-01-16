@@ -5,7 +5,8 @@ const team = [
   {
     name: "Sameer Nimje",
     role: "CTO & Founder",
-    portfolio: "https://www.linkedin.com/in/sameer-nimje-0029b421b/",
+    // portfolio: "https://www.linkedin.com/in/sameer-nimje-0029b421b/",
+    portfolio: "https://sameerx.in",
     initials: "SN",
   },
   {
@@ -92,7 +93,7 @@ export const TeamSection = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
             Meet the People
             <br />
-            <span className="text-muted-foreground">Behind MadeSimplified</span>
+            <span className="text-muted-foreground">Behind SimplifyX</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
             A diverse team of experts passionate about transforming businesses
