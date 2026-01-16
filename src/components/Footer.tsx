@@ -107,9 +107,16 @@ export const Footer = () => {
                 whileHover={{ scale: 1.05, rotate: 5 }}
                 transition={{ duration: 0.2 }}
               >
-                <span className="text-primary-foreground font-bold text-lg">
+                {/* <span className="text-primary-foreground font-bold text-lg">
                   M
-                </span>
+                </span> */}
+                <img
+                  src="/simplifyX_favicon.png"
+                  alt="SimplifyX"
+                  width={40}
+                  height={40}
+                  className="rounded-md shadow-lg"
+                />
               </motion.div>
               <span className="font-semibold text-xl tracking-tight">
                 SimplifyX
