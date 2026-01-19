@@ -29,13 +29,20 @@ export const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center transition-transform group-hover:scale-105">
-            <span className="text-primary-foreground font-bold text-lg">
+          <div className="w-10 h-10 rounded-lg flex items-center justify-center transition-transform duration-300 ease-linear group-hover:scale-95">
+            {/* <span className="text-primary-foreground font-bold text-lg">
               {"</>"}
-            </span>
+            </span> */}
+            <img
+              src="/simplifyX_favicon.png"
+              alt="SimplifyX"
+              width={40}
+              height={40}
+              className="rounded-md shadow-lg"
+            />
           </div>
           <span className="font-semibold text-xl tracking-tight">
-            MadeSimplified
+            SimplifyX
           </span>
         </a>
 
