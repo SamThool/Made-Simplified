@@ -5,12 +5,7 @@ const team = [
   {
     name: "Sameer Nimje",
     role: "CTO & Founder",
-<<<<<<< HEAD
     portfolio: "https://sameerx.in/",
-=======
-    // portfolio: "https://www.linkedin.com/in/sameer-nimje-0029b421b/",
-    portfolio: "https://sameerx.in",
->>>>>>> a9661261e2f34e84514fb964341ad429060b4eba
     initials: "SN",
   },
   {
